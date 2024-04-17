@@ -380,9 +380,6 @@ body {
     gap: var(--gap-sm);
 }
 
-.footer__navigation__section__list__item {}
-
-
 .footer__navigation__section__list__item__link {
     text-decoration: none;
     color: var(--color-black);

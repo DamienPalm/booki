@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    max-width: var(--max-breakpoint);
+    max-width: var(--lg-breakpoint);
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -46,7 +46,7 @@ body {
 }
 
 .main {
-    max-width: var(--max-breakpoint);
+    max-width: var(--lg-breakpoint);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -349,10 +349,13 @@ body {
 
 .main__activities-section__activities-cards__link {
     text-decoration: none;
-    flex-basis: calc(100% / 4 - var(--gap-lg));
+    width: calc(100% / 4);
 }
 
 .main__activities-section__activities-cards__link__card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: var(--color-white);
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: var(--border-radius-md);
@@ -373,13 +376,16 @@ body {
 }
 
 .main__activities-section__activities-cards__link__card__title {
+    display: flex;
     color: var(--color-black);
     font-weight: 700;
     padding: var(--padding-xl) var(--padding-lg);
+    flex-grow: 1;
+    align-items: center;
 }
 
 .footer {
-    max-width: var(--max-breakpoint);
+    max-width: var(--lg-breakpoint);
     margin: 0 auto;
 }
 
@@ -413,3 +419,46 @@ body {
     text-decoration: none;
     color: var(--color-black);
 }
+
+
+/******************************************************* Responsive *******************************************************/
+
+@media screen and (max-width: 1024px) {
+
+    .main__accommodations-and-popular {
+        flex-direction: column;
+    }
+
+    .main__accommodations-and-popular__accommodations-section {
+        width: calc(100% - var(--margin-xl));
+    }
+
+    .main__accommodations-and-popular__popular-section {
+        width: calc(100% - var(--margin-xl));
+    }
+
+    .main__accommodations-and-popular__popular-section__popular-cards {
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .main__accommodations-and-popular__popular-section__popular-cards__link {
+        text-decoration: none;
+        height: auto;
+        width: calc(100%/3 - 20px);
+        flex-grow: 1;
+    }
+
+    .main__accommodations-and-popular__popular-section__popular-cards__link__card__image {
+        width: var(--popular-card-width-md);
+        object-fit: cover;
+    }
+
+    .main__activities-section__activities-cards__link__card__image {
+        height: var(--activity-card-height-md);
+    }
+
+}
+
+@media screen and (max-width: 768px) {}

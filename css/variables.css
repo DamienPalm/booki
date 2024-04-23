@@ -6,7 +6,9 @@
     --color-black: #000;
     --color-white: #fff;
 
-    --max-breakpoint: 1440px;
+    --lg-breakpoint: 1440px;
+    --md-breakpoint: 1024px;
+    --sm-breakpoint: 768px;
 
     --fs-sm: 14px;
     --fs-md: 16px;

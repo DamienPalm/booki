@@ -16,10 +16,25 @@
 
     --logo-height: 19px;
     --accommodation-card-height-lg: 124px;
+    --popular-card-width-md: 91.56px;
     --popular-card-width-lg: 123px;
+    --activity-card-height-md: 200px;
     --activity-card-height-lg: 380px;
 
     --info-circle: 24px;
+
+    /* --spacing-2xs: 4px;
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 20px;
+    --spacing-xl: 24px;
+    --spacing-2xl: 28px;
+    --spacing-3xl: 32px;
+    --spacing-4xl: 36px;
+    --spacing-5xl: 40px;
+    --spacing-6xl: 48px;
+    --spacing-7xl: 68px; */
 
     --padding-2xs: 5px;
     --padding-xs: 10px;

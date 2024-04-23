@@ -45,32 +45,41 @@
                 </label>
                 <input class="main__search-and-filters__form__search-bar" type="text" id="search-input" name="q"
                     placeholder="Où allez-vous ?" value="Marseille, France">
-                <button class="main__search-and-filters__form__search-button" type="submit">Rechercher</button>
+                <div class="main__search-and-filters__form__search-button">
+                    <button class="main__search-and-filters__form__search-button__search"
+                        type="submit">Rechercher</button>
+                    <button class="main__search-and-filters__form__search-button__icon" type="submit">
+                        <figure class="fa-solid fa-magnifying-glass" style="color: var(--white-color);"></figure>
+                    </button>
+
+                </div>
             </form>
 
             <section class="main__search-and-filters__filters-links">
                 <h3 class="main__search-and-filters__filters-links__title">Filtres</h3>
-                <a class="main__search-and-filters__filters-links__link" href="#" aria-label="economic filter"
-                    data-filter="economic">
-                    <figure class="fa-solid fa-money-bill-wave" style="color: var(--main-color);">
-                    </figure>
-                    <p class="main__search-and-filters__filters-links__link__filter">Économique</p>
-                </a>
-                <a class="main__search-and-filters__filters-links__link" href="#" aria-label="family filter"
-                    data-filter="family">
-                    <figure class="fa-solid fa-person" style="color: var(--main-color);"></figure>
-                    <p class="main__search-and-filters__filters-links__link__filter">Familiale</p>
-                </a>
-                <a class="main__search-and-filters__filters-links__link" href="#" aria-label="romantic filter"
-                    data-filter="romantic">
-                    <figure class="fa-solid fa-heart" style="color: var(--main-color);"></figure>
-                    <p class="main__search-and-filters__filters-links__link__filter">Romantique</p>
-                </a>
-                <a class="main__search-and-filters__filters-links__link" href="#" aria-label="highlights filter"
-                    data-filter="highlights">
-                    <figure class="fa-solid fa-fire" style="color: var(--main-color);"></figure>
-                    <p class="main__search-and-filters__filters-links__link__filter">Nos Pépites</p>
-                </a>
+                <div class="main__search-and-filters__filters-links__links">
+                    <a class="main__search-and-filters__filters-links__links__link" href="#"
+                        aria-label="economic filter" data-filter="economic">
+                        <figure class="fa-solid fa-money-bill-wave" style="color: var(--main-color);">
+                        </figure>
+                        <p class="main__search-and-filters__filters-links__links__link__filter">Économique</p>
+                    </a>
+                    <a class="main__search-and-filters__filters-links__links__link" href="#" aria-label="family filter"
+                        data-filter="family">
+                        <figure class="fa-solid fa-person" style="color: var(--main-color);"></figure>
+                        <p class="main__search-and-filters__filters-links__links__link__filter">Familiale</p>
+                    </a>
+                    <a class="main__search-and-filters__filters-links__links__link" href="#"
+                        aria-label="romantic filter" data-filter="romantic">
+                        <figure class="fa-solid fa-heart" style="color: var(--main-color);"></figure>
+                        <p class="main__search-and-filters__filters-links__links__link__filter">Romantique</p>
+                    </a>
+                    <a class="main__search-and-filters__filters-links__links__link" href="#"
+                        aria-label="highlights filter" data-filter="highlights">
+                        <figure class="fa-solid fa-fire" style="color: var(--main-color);"></figure>
+                        <p class="main__search-and-filters__filters-links__links__link__filter">Nos Pépites</p>
+                    </a>
+                </div>
             </section>
 
             <div class="main__search-and-filters__info-container">

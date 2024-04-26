@@ -18,8 +18,10 @@
 
     --logo-height: 19px;
     --accommodation-card-height-lg: 124px;
+    --popular-card-width-sm: 111.76px;
     --popular-card-width-md: 91.56px;
     --popular-card-width-lg: 123px;
+    --popular-card-height: 146px;
     --activity-card-height-md: 200px;
     --activity-card-height-lg: 380px;
 
@@ -60,7 +62,8 @@
     --gap-lg: 30px;
     --gap-xl: 35px;
     --gap-2xl: 40px;
-    --gap-3xl: 68px;
+    --gap-3xl: 50px;
+    --gap-4xl: 68px;
 
     --border-radius-sm: 15px;
     --border-radius-md: 20px;

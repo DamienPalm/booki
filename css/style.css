@@ -255,7 +255,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--main-bg-color);
-    gap: var(--gap-lg);
+    gap: var(--spacing-3xl);
     padding: var(--spacing-3xl);
     border-radius: var(--border-radius-sm);
     width: calc(1 / 3 * 100%);

@@ -126,6 +126,7 @@ body {
 
 .main__search-and-filters__filters-links__links {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--spacing-md);
 }
 
@@ -496,10 +497,15 @@ body {
         padding: 0 var(--spacing-lg);
     }
 
+    .main__search-and-filters__form__search-bar {
+        width: 100%;
+    }
+
     .main__search-and-filters__filters-links__links {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-md);
+        width: 100%;
     }
 
     .main__search-and-filters__form__search-button__search {

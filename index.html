@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="#">
 </head>
@@ -42,7 +42,7 @@
 
             <form class="main__search-and-filters__form" action="#" method="get" id="search-form">
                 <label class="main__search-and-filters__form__label" for="search-input">
-                    <figure class="fa-solid fa-location-dot"></figure>
+                    <i class="fa-solid fa-location-dot"></i>
                 </label>
                 <input class="main__search-and-filters__form__search-bar" type="text" id="search-input" name="q"
                     placeholder="Où allez-vous ?" value="Marseille, France">
@@ -50,7 +50,7 @@
                     <button class="main__search-and-filters__form__search-button__search"
                         type="submit">Rechercher</button>
                     <button class="main__search-and-filters__form__search-button__icon" type="submit">
-                        <figure class="fa-solid fa-magnifying-glass" style="color: var(--white-color);"></figure>
+                        <i class="fa-solid fa-magnifying-glass" style="color: var(--white-color);"></i>
                     </button>
 
                 </div>
@@ -92,14 +92,15 @@
             </div>
         </section>
 
-        <section class="main__accommodations-and-popular">
+        <section class="main__accommodations-and-popular" aria-label="Accommodations and popular section">
 
             <section class="main__accommodations-and-popular__accommodations-section" id="accommodations">
 
                 <h2 class="main__accommodations-and-popular__accommodations-section__title">Hébergements à Marseille
                 </h2>
 
-                <section class="main__accommodations-and-popular__accommodations-section__accommodations-cards">
+                <section class="main__accommodations-and-popular__accommodations-section__accommodations-cards"
+                    aria-label="Accommodations cards">
                     <a class="main__accommodations-and-popular__accommodations-section__accommodations-cards__link"
                         href="#">
                         <article
@@ -324,7 +325,8 @@
                     </figure>
                 </div>
 
-                <section class="main__accommodations-and-popular__popular-section__popular-cards">
+                <section class="main__accommodations-and-popular__popular-section__popular-cards"
+                    aria-label="Popular cards">
                     <a class="main__accommodations-and-popular__popular-section__popular-cards__link" href="#">
                         <article class="main__accommodations-and-popular__popular-section__popular-cards__link__card">
                             <img class="main__accommodations-and-popular__popular-section__popular-cards__link__card__image"
@@ -477,7 +479,7 @@
         <nav class="footer__navigation">
             <section class="footer__navigation__section">
                 <h3 class="footer__navigation__section__title">À propos</h3>
-                <ul role="list" class="footer__navigation__section__list">
+                <ul class="footer__navigation__section__list">
                     <li class="footer__navigation__section__list__item"><a
                             class="footer__navigation__section__list__item__link" href="#">Fonctionnement du
                             site</a>
@@ -492,7 +494,7 @@
             </section>
             <section class="footer__navigation__section">
                 <h3 class="footer__navigation__section__title">Nos hébergements</h3>
-                <ul role="list" class="footer__navigation__section__list">
+                <ul class="footer__navigation__section__list">
                     <li class="footer__navigation__section__list__item"><a
                             class="footer__navigation__section__list__item__link" href="#">Charte qualité</a>
                     </li>
@@ -503,7 +505,7 @@
             </section>
             <section class="footer__navigation__section">
                 <h3 class="footer__navigation__section__title">Assistance</h3>
-                <ul role="list" class="footer__navigation__section__list">
+                <ul class="footer__navigation__section__list">
                     <li class="footer__navigation__section__list__item"><a
                             class="footer__navigation__section__list__item__link" href="#">Centre d'aide</a></li>
                     <li class="footer__navigation__section__list__item"><a

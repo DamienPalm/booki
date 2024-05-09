@@ -150,6 +150,7 @@ body {
     color: var(--color-black);
     font-size: var(--font-size-lg);
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .main__search-and-filters__info-container {

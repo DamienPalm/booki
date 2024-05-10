@@ -310,6 +310,7 @@ body {
 }
 
 .main__accommodations-and-popular__popular-section__popular-cards__link__card__content {
+    width: calc(100% * 2/3 - calc(var(--spacing-md) + var(--spacing-2xs)));
     display: flex;
     flex-direction: column;
     justify-content: space-between;

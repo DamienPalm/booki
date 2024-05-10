@@ -6,6 +6,14 @@ body {
     font-size: 16px;
 }
 
+.fa-main-color {
+    color: var(--main-color);
+}
+
+.fa-main-bg-color {
+    color: var(--main-bg-color);
+}
+
 .header {
     max-width: var(--lg-breakpoint);
     display: flex;

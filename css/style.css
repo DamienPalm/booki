@@ -518,6 +518,10 @@ body {
         width: 100%;
     }
 
+    .main__search-and-filters__filters-links__links .main__search-and-filters__filters-links__links__link {
+        padding: var(--spacing-md) 10%;
+    }
+
     .main__search-and-filters__form__search-button__search {
         display: none;
     }
